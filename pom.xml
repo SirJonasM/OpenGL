@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project>
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>org.example</groupId>
     <artifactId>OPENGL</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <lwjgl.version>3.3.3</lwjgl.version>
+        <lwjgl.version>3.3.2</lwjgl.version>
     </properties>
 
     <profiles>
@@ -379,7 +376,6 @@
         <dependency>
             <groupId>org.lwjgl</groupId>
             <artifactId>lwjgl-ovr</artifactId>
-            <classifier>${lwjgl.natives}</classifier>
         </dependency>
         <dependency>
             <groupId>org.lwjgl</groupId>
