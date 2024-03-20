@@ -1,5 +1,6 @@
 package org.example;
 
+import org.lwjgl.*;
 import org.lwjgl.glfw.*;
 import org.lwjgl.opengl.*;
  
@@ -19,7 +20,7 @@ public class Main
     private long window;
     
     private MyScene scene = new MyScene();
-    private int WIDTH = 600, HEIGHT = 600;
+    private int WIDTH = 1000, HEIGHT = 1000;
 
  
     public void run()
