@@ -1,6 +1,5 @@
-package org.example;
+package org.UeubungsAufgabe1;
 
-import org.lwjgl.*;
 import org.lwjgl.glfw.*;
 import org.lwjgl.opengl.*;
  
@@ -19,7 +18,7 @@ public class Main
     // The window handle
     private long window;
     
-    private MyScene scene = new MyScene();
+    private final MyScene scene = new MyScene();
     private int WIDTH = 1000, HEIGHT = 1000;
 
  

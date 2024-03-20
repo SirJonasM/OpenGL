@@ -1,9 +1,5 @@
-package org.example;//Imports
+package org.UeubungsAufgabe1;//Imports
 import static org.lwjgl.opengl.GL11.*;
-
-import java.nio.FloatBuffer;
-import java.nio.IntBuffer;
-import org.lwjgl.BufferUtils; // to create a float buffer in place of the glfloat array
 
 
 public class Dreieck

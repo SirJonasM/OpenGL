@@ -1,4 +1,4 @@
-package org.example;
+package org.UeubungsAufgabe1;
 
 import static org.lwjgl.opengl.GL11.GL_LINE_LOOP;
 import static org.lwjgl.opengl.GL11.glBegin;

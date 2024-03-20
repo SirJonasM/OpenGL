@@ -1,4 +1,4 @@
-package org.example;//Imports
+package org.UeubungsAufgabe1;//Imports
 import static org.lwjgl.opengl.GL11.*;
 
 public class MyScene
